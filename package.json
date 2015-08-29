@@ -1,10 +1,9 @@
 {
   "name": "sublime-panes",
   "main": "./lib/sublime-panes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add a tentative viewing pane, so each file does not open a new pane unless edited",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "sublime-panes:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
