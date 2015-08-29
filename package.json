@@ -2,13 +2,13 @@
   "name": "sublime-panes",
   "main": "./lib/sublime-panes",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Add a tentative viewing pane, so each file does not open a new pane unless edited",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "sublime-panes:toggle"
   },
-  "repository": "https://github.com/atom/sublime-panes",
+  "repository": "https://github.com/ruhatch/sublime-panes",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
