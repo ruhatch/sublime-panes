@@ -2,4 +2,6 @@
 
 View files without creating a new tab, allowing you to preview without all of the clutter.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+A proper tab is opened once you decide to edit the file that you're viewing.
+
+![A screenshot of your package](sublime-panes.gif)
