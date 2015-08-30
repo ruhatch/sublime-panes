@@ -1,4 +1,4 @@
-# sublime-panes package
+# Sublime Panes
 
 View files without creating a new tab, allowing you to preview without all of the clutter.
 
