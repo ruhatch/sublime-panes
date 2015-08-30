@@ -2,11 +2,8 @@
   "name": "sublime-panes",
   "main": "./lib/sublime-panes",
   "version": "0.1.0",
-  "description": "Add a tentative viewing pane, so each file does not open a new pane unless edited",
+  "description": "View files without creating a new tab, allowing you to preview without all of the clutter.",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "sublime-panes:toggle"
-  },
   "repository": "https://github.com/ruhatch/sublime-panes",
   "license": "MIT",
   "engines": {
