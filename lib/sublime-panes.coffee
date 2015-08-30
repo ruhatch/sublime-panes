@@ -30,6 +30,9 @@ module.exports = SublimePanes =
     @modalPanel.destroy()
     @subscriptions.dispose()
     @sublimePanesView.destroy()
+    @activeHandler.dispose()
+    @newItem.destroy()
+    @register.dispose()
 
   serialize: ->
     sublimePanesViewState: @sublimePanesView.serialize()
@@ -61,6 +64,7 @@ module.exports = SublimePanes =
 
   restoreTab: ->
     @activeHandler.dispose()
+    @newItem = null
     pane = atom.workspace.getActivePane()
     for element in atom.views.getView(pane).getElementsByClassName('tab-bar')
       element.appendChild @hiddenTab
